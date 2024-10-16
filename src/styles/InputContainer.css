@@ -21,3 +21,10 @@
     margin-top: 20px;
     width: 100%;
 }
+
+.input-error {
+    font-size: 10px;
+    margin-top: 4px;
+    color: rgb(181, 4, 4);
+    margin-left: 8px;
+}
