@@ -1,0 +1,42 @@
+.signup-wrapper {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.signup-right {
+    background-image: url('../assets/login-background.png');
+    background-size: 100% 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+.signup-heading {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.signup-button {
+    background: #3A5B22;
+    padding: 12px;
+    border-radius: 18px;
+    width: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-top: 24px;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: .7px;
+}
